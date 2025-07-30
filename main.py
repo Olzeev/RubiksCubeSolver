@@ -86,7 +86,7 @@ while running:
         print([(cur_state.cubies[1][i].e, cur_state.cubies[1][i].o) for i in range(12)])
         print(cur_state.coordinates)
     if key.is_pressed('enter'):
-        cur_state.implement_move(Lmove)
+        cur_state.implement_move(Rmove)
 
     pygame.display.flip()
     clock.tick(FPS)
